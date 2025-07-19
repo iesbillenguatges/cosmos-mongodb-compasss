@@ -39,14 +39,17 @@ MONGO_URI=mongodb+srv://<usuari>:<password>@prova01.mongocluster.cosmos.azure.co
 ## Com executar amb Docker
 Construir la imatge:
 
-docker build -t cosmos-todo .
+``` docker build -t cosmos-todo . ```
 
 Executar el contenidor:
 
-docker run -p 8000:8000 --env-file .env cosmos-todo
+``` docker run -p 8000:8000 --env-file .env cosmos-todo ```
 
 Obrir en navegador:
 
 http://localhost:8000
+
+## MongoDB Compass 
+https://www.mongodb.com/try/download/compass
 
 
