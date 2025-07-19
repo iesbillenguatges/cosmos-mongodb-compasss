@@ -1,4 +1,4 @@
-# Cosmos-Mongodb-Compasss
+# Cosmos-Mongodb-Compass
 # Gestor de Tasques amb FastAPI + Azure Cosmos DB (MongoDB vCore)
 
 Aquesta és una aplicació web senzilla que et permet afegir i eliminar tasques (to-do) mitjançant un frontend HTML + JavaScript i backend amb FastAPI. Les dades es guarden en una base de dades **Azure Cosmos DB for MongoDB (vCore)**.
