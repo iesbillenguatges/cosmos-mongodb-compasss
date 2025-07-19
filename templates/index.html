@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Llista de Tasques</title>
+</head>
+<body>
+    <h1>Tasques</h1>
+    <form action="/add" method="post">
+        <input type="text" name="nom" required placeholder="Nova tasca">
+        <button type="submit">Afegir</button>
+    </form>
+    <ul>
+        {% for t in tasques %}
+            <li>{{ t.nom }} <a href="/delete/{{ t._id }}">🗑️</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
